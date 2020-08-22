@@ -16,7 +16,7 @@ const SubMenu = ({ items }) => {
 }
 
 const CategoryName = (item, index) => (
-    <p className={`text-gray-500 text-xs font-sans font-bold ${index === 1 && `mt-6`}`}>
+    <p className={`text-gray-500 text-xs font-sans font-semibold ${index === 1 && `mt-6`}`}>
         {item.categoryName}
     </p>)
 
