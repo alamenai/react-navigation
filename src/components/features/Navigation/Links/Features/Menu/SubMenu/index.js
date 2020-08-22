@@ -1,5 +1,5 @@
 import React from "react"
-import Item from "../Item"
+import ItemText from "../Item"
 import Badge from "../Badge"
 
 const SubMenu = ({ items }) => {
@@ -25,9 +25,8 @@ const ItemsList = (item) => (
 
 const Item = (name, route, index) => (
     <div key={index} className={`flex justify-start my-2`}>
-        <Item name={name} route={route} />
+        <ItemText name={name} route={route} />
         {index === 0 && <Badge text="NEW" />}
     </div>)
-
 
 export default SubMenu
