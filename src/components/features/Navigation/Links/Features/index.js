@@ -16,7 +16,7 @@ const FeaturesLink = () => {
         onMouseLeave={hideMenu}>
         <NavLink
             to={FEATURES.link}
-            className="mr-8"
+            className="xl:mr-6 sm:mr-8 md:mr-8 mr-4"
             activeClassName="cursor-pointer text-orange-400"
             onMouseOver={displayMenu}
         >
