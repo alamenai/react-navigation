@@ -13,7 +13,7 @@ const Field = ({
         isFocused && ref.current.focus()
     });
 
-    return (<input className="bg-white rounded-md mt-1 px-4 py-2 border focus:border-brand focus:shadow-outline-sm focus:outline-none"
+    return (<input className="bg-white tracking-wide rounded-md mt-1 px-4 py-2 border focus:border-brand focus:shadow-outline-sm focus:outline-none"
         ref={ref}
         type={type}
         name={name}
