@@ -7,13 +7,20 @@ import { LoginLink } from "../../components/features/Login"
 
 const Header = () => (
     <Fragment>
-        <header className="flex justify-start bg-brand-dark h-20 py-5 px-10 items-center">
+        <header className="xs:px-2 sm:py-2
+                           sm:px-6 sm:py-3
+                           md:px-8 sm:py-4
+                           flex justify-start bg-brand-dark py-4 px-10 items-center ">
             <Logo />
             <SearchField />
-            <Navigation />
-            <div className="ml-auto">
+            <div className="flex flex-grow items-center">
+                <div className="xs:hidden sm:hidden md:hidden">
+                <Navigation/>
+                </div>
+            <div className="flex xs:hidden items-center ml-auto">
                 <SignUpButton />
                 <LoginLink />
+            </div>
             </div>
         </header>
     </Fragment>)
