@@ -9,7 +9,7 @@ const Search = () => (
                    py-2 focus:shadow-outline font-helvetica outline-none
                    rounded-full ml-5 mr-20 px-5 font-medium placeholder-gray-400
                    tracking-wide xl:w-1/4"
-        type="text"
+        type="search"
         placeholder="Search timber"
     />
 )
