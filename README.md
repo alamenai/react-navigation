@@ -5,7 +5,7 @@
 
 ## Demo
 
-[Live App](jiue8.csb.app/)
+[Live App](/jiue8.csb.app/)
 
 [On Codesandbox](https://codesandbox.io/s/menaialareact-navigation-jiue8)
 
