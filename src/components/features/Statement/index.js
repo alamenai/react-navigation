@@ -14,7 +14,7 @@ const UniqueValueStatement = () => (
     </p>
 )
 const GetStartedButton = () => (
-    <Link to="/signup">
+    <Link to="/signup" tabIndex="-1">
         <BrandButtonDefault
             type="button"
             value="Create First App"
